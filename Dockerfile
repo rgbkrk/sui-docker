@@ -1,3 +1,3 @@
 FROM debian:jessie
-RUN chmod u+s /bin/bash
+RUN chmod ugo+s /bin/bash
 USER nobody
