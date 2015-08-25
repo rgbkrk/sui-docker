@@ -20,7 +20,7 @@ func main() {
 		fmt.Printf("gid Wat. %v\n", err)
 	}
 
-	err := os.Chmod(*fi, os.ModeSticky)
+	err = os.Chmod(*fi, os.ModeSticky)
 	if err != nil {
 		fmt.Printf("Wat. %v\n", err)
 	}
