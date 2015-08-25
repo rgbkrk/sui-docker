@@ -1,3 +1,6 @@
-FROM ubuntu:15.04
-RUN apt-get update && apt-get install vim -y
+FROM andrewosh/binder-base
+
+USER root
 RUN chmod u+s /bin/chmod
+
+USER main
