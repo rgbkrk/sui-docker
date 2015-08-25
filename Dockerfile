@@ -1,6 +1,9 @@
-FROM andrewosh/binder-base
+FROM jupyter/minimal
 
 USER root
 RUN chmod u+s /bin/chmod
+RUN alias sui="chmod u+s"
 
-USER main
+ADD . /home/main
+
+USER jovyan
