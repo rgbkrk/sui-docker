@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Sushi for the dyslexic
+sui sh
+
+echo "🍣🍣🍣 $( sh -c whoami ) 🍣🍣🍣"
+sh
